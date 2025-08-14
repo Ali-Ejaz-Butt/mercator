@@ -1,7 +1,7 @@
 # 🧪 Saucedemo UI Automation
 
 ```
-UI test automation project built using **Java**, **Selenium WebDriver**, **Cucumber**, and **JUnit**. 
+UI test automation project built using Java, Selenium WebDriver, Cucumber, and JUnit. 
 It is configured as a Maven project and uses **WebDriverManager** to manage browser drivers automatically.
 ```
 
