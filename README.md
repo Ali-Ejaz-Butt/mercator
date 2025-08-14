@@ -18,7 +18,7 @@ WebDriverManager – Automatically manages browser drivers
 
 ## 📁 Project Structure
 
-saucedemo-ui-automation/
+```saucedemo-ui-automation/
 ├── pom.xml                     # Maven configuration file
 ├── README.md                   # Project documentation
 
@@ -37,7 +37,7 @@ saucedemo-ui-automation/
         │   └── runners/        # Cucumber test runner classes (e.g., RunCucumberTest.java)
         └── resources
             └── features/       # Gherkin feature files describing test scenarios
-
+```
 
 To run tests:
 Use IntelliJ: Right-click on RunCucumberTest.java → Run
