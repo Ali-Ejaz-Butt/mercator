@@ -1,4 +1,4 @@
-Feature: Adding high value product in shopping cart
+Feature: Adding high value item in shopping cart
 
   As a user of Saucedemo shopping site,
   I want to add the highest price item to my cart.
