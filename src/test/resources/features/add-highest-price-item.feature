@@ -3,6 +3,7 @@ Feature: Adding high value item in shopping cart
   As a user of Saucedemo shopping site,
   I want to add the highest price item to my cart.
 
+  @test
   Scenario: User adding highest price item to the cart
     Given I navigate to Saucedemo login page
     When I log in with valid credentials

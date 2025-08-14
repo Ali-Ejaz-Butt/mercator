@@ -9,8 +9,9 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "stepDefs",
         plugin = {"pretty", "html:target/cucumber-report.html"},
-        monochrome = true
+        monochrome = true,
+        tags = "@test"
 )
 
-public class Runner {
+public class RunCucumberTest {
 }
