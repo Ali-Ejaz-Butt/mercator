@@ -1,13 +1,14 @@
-# 🧪 Saucedemo UI Automation
+# Saucedemo UI Automation
 
 ```
 UI test automation project built using Java, Selenium WebDriver, Cucumber, and JUnit. 
-It is configured as a Maven project and uses **WebDriverManager** to manage browser drivers automatically.
+
+It is configured as a Maven project and uses WebDriverManager to manage browser drivers automatically.
 ```
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ```
 Java 17 – Programming language
@@ -20,7 +21,7 @@ WebDriverManager – Automatically manages browser drivers
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 saucedemo-ui-automation/
@@ -44,8 +45,10 @@ saucedemo-ui-automation/
             └── features/       # Gherkin feature files describing test scenarios
 ```
 
-To run tests:
+## To run tests:
 
+```
 Use IntelliJ: Right-click on RunCucumberTest.java → Run
-Or use Maven CLI: mvn clean test -Dcucumber.filter.tags="@test"
 
+Or use Maven CLI: mvn clean test -Dcucumber.filter.tags="@test"
+```
