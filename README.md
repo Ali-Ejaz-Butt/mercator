@@ -19,25 +19,25 @@ WebDriverManager – Automatically manages browser drivers
 ## 📁 Project Structure
 
 saucedemo-ui-automation/
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── config/               # ConfigReader class to read config.properties
-│   │   │   ├── pages/                # Page Object Model (POM) classes
-│   │   │   └── utils/                # Driver management and ScenarioContext classes
-│   │   └── resources
-│   │       └── config.properties     # Configuration file with environment settings
-│
-│   ├── test
-│   │   ├── java
-│   │   │   ├── stepDefs/             # Step definition classes for Cucumber scenarios
-│   │   │   └── runners/              # Cucumber test runner classes (e.g., RunCucumberTest.java)
-│   │   └── resources
-│   │       └── features/             # Gherkin feature files describing test scenarios
-│
-├── pom.xml                           # Maven configuration file with all dependencies and plugins
-└── README.md                         # Project documentation and usage instructions
+├── pom.xml                     # Maven configuration file
+├── README.md                   # Project documentation
+
+└── src
+    ├── main
+    │   ├── java
+    │   │   ├── config/         # ConfigReader class to read config.properties
+    │   │   ├── pages/          # Page Object Model (POM) classes
+    │   │   └── utils/          # Driver management and ScenarioContext classes
+    │   └── resources
+    │       └── config.properties  # Configuration file with environment settings
+    │
+    └── test
+        ├── java
+        │   ├── stepDefs/       # Step definition classes for Cucumber scenarios
+        │   └── runners/        # Cucumber test runner classes (e.g., RunCucumberTest.java)
+        └── resources
+            └── features/       # Gherkin feature files describing test scenarios
+
 
 To run tests:
 Use IntelliJ: Right-click on RunCucumberTest.java → Run
